@@ -18,6 +18,15 @@ body {
   justify-content: space-between;
   flex-direction: column;
 }
+header{
+    display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  overflow-x: hidden;
+}
 /* Style for main section */
 main {
   display: flex;
@@ -27,7 +36,6 @@ main {
   justify-content: space-between;
   flex-direction: column;
   overflow-x: hidden;
-  flex-grow: 1;
 }
 /* Style for Hero section */
 .hero {
@@ -506,6 +514,14 @@ footer .left p {
   color: var(--font-color-primary);
   padding-bottom: 10px;
 }
+footer .left a {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  text-decoration: none;
+  color: var(--font-color-primary);
+  padding-bottom: 10px;
+}
 /* Style for social icons */
 footer .left .socials {
   display: flex;
@@ -572,6 +588,7 @@ footer .right form .message {
   font-family: "Poppins", sans-serif;
   color: var(--font-color-primary);
   background: transparent;
+  word-wrap: break-word;
 }
 /* Style for submit button */
 footer .right form button {
@@ -585,6 +602,6 @@ footer .right form button {
   transition: background 0.3s ease;
 }
 /* Transition for read more button */
-.intro button:hover {
+footer .right form button:hover {
   background: var(--font-color-primary);
 }
