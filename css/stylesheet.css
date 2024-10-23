@@ -435,7 +435,7 @@ main {
   align-items: center;
   justify-content: space-between;
   position: absolute;
-  left: 2;
+  left: 0;
 }
 .gallery .left i {
   font-size: 200px;
